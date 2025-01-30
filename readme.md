@@ -31,6 +31,10 @@
 > 9. Linux important command
 ####
 
+
+> 10. Laravel scripts install or update for codecanyone
+####
+
 --------------------------------
 vs code plugin 
 --------------------------------
@@ -293,6 +297,16 @@ CHOWN - Changes the ownership of files.
 GZIP - Compresses files using the gzip algorithm.
 ```
 
+
+
+---------------------------------------------------
+Laravel scripts install or update for codecanyone 
+--------------------------------------------------
+```
+	Main logic is initially commented all except setup route from
+	RouteServiceprovider and load setup / update file from RouteServiceProvider
+	and finally copy RouteServiecProvider from setupServiceProvider(all route will open for project and commented route for   setup and update)
+```
 
 
 
