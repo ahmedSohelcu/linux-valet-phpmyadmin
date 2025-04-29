@@ -28,6 +28,13 @@
 > 8. Install vim, vim  plugin and vim shortcut
 ####
 
+> 9. Linux important command
+####
+
+
+> 10. Laravel scripts install or update for codecanyone
+####
+
 --------------------------------
 vs code plugin 
 --------------------------------
@@ -96,6 +103,8 @@ Valet restart
 Valet stop
 
 Valet start
+
+sudo service apache2 stop -- t stop apache2 in create conflict with valet
 ```
 
 
@@ -217,6 +226,87 @@ set mouse=a
 set colorscheme slate (to change terminal color like state / delek etc)
 ```
 
+---------------------------
+valet dependency
+---------------------------
+```sudo apt-get install network-manager libnss3-tools jq xsel```
+
+---------------------------
+3.Install php extension
+---------------------------
+```
+sudo apt install openssl php-bcmath php-curl php-json php-mbstring php-mysql php-tokenizer php-xml php-zip
+```
+
+---------------------------
+Linux important command
+---------------------------
+```
+LS - Lists files and directories in the current directory.
+```
+```
+MV - Moves or renames files and directories.
+```
+```
+SSH - Connects to a remote machine using SSH protocol.
+```
+```
+CD - Changes the current directory.
+```
+```
+CAT - Concatenates and displays file content.
+```
+```
+SUDO - Executes a command with root/admin privileges.
+```
+```
+PWD - Prints the current working directory.
+```
+```
+GREP - Searches for a specified pattern in files.
+```
+```
+TOP - Displays system resource usage and running processes.
+```
+```
+MKDIR - Creates a new directory.
+```
+```
+FIND - Searches for files and directories.
+```
+```
+WGET - Downloads files from the web.
+```
+```
+RM - Removes files and directories.
+```
+```
+CHMOD - Changes the permissions of files and directories.
+```
+
+```
+TAR - Archives files and directories into a single file.
+```
+```
+CP - Copies files and directories.
+```
+```
+CHOWN - Changes the ownership of files.
+```
+```
+GZIP - Compresses files using the gzip algorithm.
+```
+
+
+
+---------------------------------------------------
+Laravel scripts install or update for codecanyone 
+--------------------------------------------------
+```
+	Main logic is initially commented all except setup route from
+	RouteServiceprovider and load setup / update file from RouteServiceProvider
+	and finally copy RouteServiecProvider from setupServiceProvider(all route will open for project and commented route for   setup and update)
+```
 
 
 
